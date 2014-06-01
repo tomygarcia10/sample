@@ -16,7 +16,7 @@ class HelloController {
 	
 	def displayForm(){
 		// just to provide value for age. First Name and Last name are blanks
-		Person person = new Person(age:55)
+		Person person = new Person(age:45)
 		[person:person]
 	}
 	def save(){
